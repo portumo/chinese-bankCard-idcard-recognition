@@ -1,0 +1,17 @@
+path = G:\BCR-vs2012\BCR\demo\img
+
+
+D:\银行卡\bankCardSeg
+E:\银行卡识别\bankCardSample
+E:\银行卡识别\11111
+E:\银行卡识别\bank\bank
+E:\银行卡识别\bankCard
+E:\银行卡识别\bankCards
+E:\银行卡识别\bankCardSeg
+E:\银行卡识别\银行卡
+
+
+
+
+path = D:\新建文件夹2
+path = D:\bankCard

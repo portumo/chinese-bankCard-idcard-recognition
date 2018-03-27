@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{3774d99b-1a59-420b-91a4-25abe41c8de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BCR">
+      <UniqueIdentifier>{a4f8c8d3-1fcf-4234-94de-6e7ad717793f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BCR\Rec">
+      <UniqueIdentifier>{add3dbf5-3312-48c1-973b-8badd875a8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BCR\DetectLine">
+      <UniqueIdentifier>{7859e35f-6790-4197-aaf1-6941b54f4b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BCR\SegCard">
+      <UniqueIdentifier>{126b35c6-ff6a-4570-9cf2-6cb2e0f38f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BCR\SegConvexChar">
+      <UniqueIdentifier>{ff6ec604-a9a9-4ad4-b495-b63980da5cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BCR\SegPlaneChar">
+      <UniqueIdentifier>{5c231725-1918-4f95-a822-27cef771537d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BCR\wrap">
+      <UniqueIdentifier>{ab0dde1f-d24e-4b93-956d-b70290bfa9ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lsd.c">
+      <Filter>BCR\DetectLine</Filter>
+    </ClCompile>
+    <ClCompile Include="AdaBoostClassifier.cpp">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClCompile>
+    <ClCompile Include="CascadeClassifier.cpp">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClCompile>
+    <ClCompile Include="IntImage.cpp">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClCompile>
+    <ClCompile Include="jiaoZheng.cpp">
+      <Filter>BCR\SegCard</Filter>
+    </ClCompile>
+    <ClCompile Include="ln_convnet.cpp">
+      <Filter>BCR\Rec</Filter>
+    </ClCompile>
+    <ClCompile Include="ln_layer.cpp">
+      <Filter>BCR\Rec</Filter>
+    </ClCompile>
+    <ClCompile Include="ln_vol.cpp">
+      <Filter>BCR\Rec</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleClassifier.cpp">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClCompile>
+    <ClCompile Include="BankCard.cpp">
+      <Filter>BCR\SegConvexChar</Filter>
+    </ClCompile>
+    <ClCompile Include="IDCardRec.cpp">
+      <Filter>BCR\wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="bcnr_test.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lsd.h">
+      <Filter>BCR\DetectLine</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaBoostClassifier.h">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClInclude>
+    <ClInclude Include="CascadeClassifier.h">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClInclude>
+    <ClInclude Include="IntImage.h">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleClassifier.h">
+      <Filter>BCR\SegPlaneChar</Filter>
+    </ClInclude>
+    <ClInclude Include="jiaoZheng.h">
+      <Filter>BCR\SegCard</Filter>
+    </ClInclude>
+    <ClInclude Include="ln_convnet.hpp">
+      <Filter>BCR\Rec</Filter>
+    </ClInclude>
+    <ClInclude Include="ln_layer.hpp">
+      <Filter>BCR\Rec</Filter>
+    </ClInclude>
+    <ClInclude Include="ln_vol.hpp">
+      <Filter>BCR\Rec</Filter>
+    </ClInclude>
+    <ClInclude Include="BankCard.h">
+      <Filter>BCR\SegConvexChar</Filter>
+    </ClInclude>
+    <ClInclude Include="IDCardRec.h">
+      <Filter>BCR\wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="testTime.h">
+      <Filter>BCR\wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="bcnr_wrap.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
+  </ItemGroup>
+</Project>
