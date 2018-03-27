@@ -1,8 +1,10 @@
 # chinese-bankCard-idcard-recognition
+==============================================
+
 haar + adboost, cnn,识别国内20多家银行的20多种银行卡，支持凸面和平面印刷字体
 
-一、银行卡号识别系统
-
+**一、银行卡号识别系统**
+----------------------------------
 随着智能终端（智能手机及平板电脑）及移动通信（3G）的发展，原来运行在PC上的信息系统（如邮件系统、即时通信、网页浏览、协同办公、网络购物、社交网站、博客等）逐渐转移到智能终端设备上。可以预见未来几年60%以上的业务将会逐渐转移到智能终端系统上来。在这种背景下，杭州图铭科技有限公司推出基于Android 平台的银行卡号识别系统。
 
 功能介绍
@@ -20,7 +22,8 @@ haar + adboost, cnn,识别国内20多家银行的20多种银行卡，支持凸�
 ![Alt text](https://github.com/portumo/chinese-bankCard-idcard-recognition/blob/master/result_img/222.png)
 
 
-二、Bank Card Rec 主要功能接口说明：
+**二、Bank Card Rec 主要功能接口说明：**
+---------------------------------------------
 说明：如果需要其他接口都可以封装出来
 主接口
 /*调用识别之前先初始化一次*/
@@ -117,7 +120,8 @@ length为该数据长度*/
 ![Alt text](https://github.com/portumo/chinese-bankCard-idcard-recognition/blob/master/result_img/333.png)
 ![Alt text](https://github.com/portumo/chinese-bankCard-idcard-recognition/blob/master/result_img/444.png)
 
-三、银行卡号识别 Q&A 技术问题：
+**三、银行卡号识别 Q&A 技术问题：**
+--------------------------------------------
 1、提供的sdk是什么形式的？如*.so、apk？
 算法是采用C、C++开发的，JNI交叉编译成*.so，然后提供接口给贵司调用。
 
