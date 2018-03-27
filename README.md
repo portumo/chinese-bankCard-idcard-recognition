@@ -111,6 +111,12 @@ num为输入卡类型数组
 length为该数据长度*/
 	addCardType (char* num,  int length);
 
+
+
+
+![Alt text](https://github.com/portumo/chinese-bankCard-idcard-recognition/blob/master/result_img/333.png)
+![Alt text](https://github.com/portumo/chinese-bankCard-idcard-recognition/blob/master/result_img/444.png)
+
 三、银行卡号识别 Q&A 技术问题：
 1、提供的sdk是什么形式的？如*.so、apk？
 算法是采用C、C++开发的，JNI交叉编译成*.so，然后提供接口给贵司调用。
