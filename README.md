@@ -19,7 +19,7 @@ haar + adboost, cnn,识别国内20多家银行的20多种银行卡，支持凸�
 •	  对单个字符进行识别
 
 ![Alt text](https://github.com/portumo/chinese-bankCard-idcard-recognition/blob/master/result_img/2.jpg)
-![Alt text](https://github.com/portumo/chinese-bankCard-idcard-recognition/blob/master/result_img/222.png)
+![Alt text](https://github.com/portumo/chinese-bankCard-idcard-recognition/blob/master/result_img/22.png)
 
 
 **二、Bank Card Rec 主要功能接口说明：**
