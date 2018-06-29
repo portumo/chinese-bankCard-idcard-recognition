@@ -182,4 +182,4 @@ resultFinal processingOneP(IplImage *src);印刷字体卡片识别，包括卡�
 
 
 
-
+欢迎交流：加QQ群 图像处理分析机器视觉 109128646
