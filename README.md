@@ -1,6 +1,7 @@
 # chinese-bankCard-idcard-recognition
 ==============================================
 
+文档介绍[名片、身份证、银行卡定位矫正算法：基于LSD直线检测，角点确定，透视变换](https://blog.csdn.net/zhubenfulovepoem/article/details/78596362   "悬停显示")
 haar + adboost, cnn,识别国内20多家银行的20多种银行卡，支持凸面和平面印刷字体
 
 **一、银行卡号识别系统**
